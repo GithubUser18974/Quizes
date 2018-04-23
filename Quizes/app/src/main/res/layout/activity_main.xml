@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed_araby.quizes.MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/intro"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Befor starting the quiz what is OOP stand for ?"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@android:color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/edittext"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="MCQ one answer"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="startQuiz_BTN"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="MCQ multi answer"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="startQuiz_BTN2"
+        />
+
+
+
+
+</LinearLayout>

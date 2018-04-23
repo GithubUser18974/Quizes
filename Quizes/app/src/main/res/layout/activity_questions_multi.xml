@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed_araby.quizes.QuestionsMulti">
+    <TextView
+        android:id="@+id/questionMULTI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which of these football teams is an egyptian team"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans1MULTI"
+        android:text="Alahly"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans2MULTI"
+        android:text="Zamalek"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans3MULTI"
+        android:text="Masry"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans4MULTI"
+        android:text="Dallas Cowboys"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:minHeight="50dp"
+        android:minWidth="100dp"
+        android:onClick="submitQuestion_BTN_Multi"
+        />
+
+</LinearLayout>

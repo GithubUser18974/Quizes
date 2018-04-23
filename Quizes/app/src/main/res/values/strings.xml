@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Quizes</string>
+    <string name="welcome">Welcome To OOP quiz </string>
+    <string name="submit">Submit</string>
+    <string name="intro">Welcome to OOP quiz through this quiz you wil have to answer some common interview question that will make you prepare for your interview we hope you are ready to pass :) </string>
+
+
+    <string name="q1">Which of these keywords is used to refer to member of base class from a sub class</string>
+    <string name="q1_ans1">upper</string>
+    <string name="q1_ans2">super</string>
+    <string name="q1_ans3">this</string>
+    <string name="q1_ans4">none of the mentioned </string>
+
+
+    <string name="q2">Which of these is correct way of inheriting class A by class B?</string>
+    <string name="q2_ans1">class B + class A {}</string>
+    <string name="q2_ans2">class B inherits class A {}</string>
+    <string name="q2_ans3">class B extends A {}</string>
+    <string name="q2_ans4">class B extends class A {}</string>
+
+
+    <string name="q3"> Which of these class provides various types of rounding functions?</string>
+    <string name="q3_ans1">Math</string>
+    <string name="q3_ans2">Process</string>
+    <string name="q3_ans3">System</string>
+    <string name="q3_ans4">Object</string>
+
+
+    <string name="q4">What is the process of defining a method in subclass having same name &amp; type signature as a method in its superclass?</string>
+    <string name="q4_ans1">Method overloading</string>
+    <string name="q4_ans2">Method overriding</string>
+    <string name="q4_ans3">Method hiding</string>
+    <string name="q4_ans4">None of the mentioned</string>
+
+
+    <string name="q5">Which of these is correct way of calling a constructor having no parameters, of superclass A by subclass B?</string>
+    <string name="q5_ans1">super(void);</string>
+    <string name="q5_ans2">superclass.();</string>
+    <string name="q5_ans3"> super.A();</string>
+    <string name="q5_ans4">super();</string>
+
+
+</resources>
