@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void startQuiz_BTN2(View view){
-        if(editText==null||!editText.getText().toString().toLowerCase().equals("object oriented programming ")){
+        if(editText==null||!editText.getText().toString().toLowerCase().equals("object oriented programming")){
             Toast.makeText(getApplicationContext(),"Wrong answer",Toast.LENGTH_LONG).show();
             return;
         }else {
